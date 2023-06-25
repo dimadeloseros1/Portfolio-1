@@ -18,6 +18,9 @@ const Nav = () => {
                     <span className=' bg-white block w-6 h-1 my-[5px] mx-auto transition-all'></span>
                     <span className=' bg-white block w-6 h-1 my-[5px] mx-auto transition-all'></span>
                 </div>
+                <div>
+                    working tree
+                </div>
             </div>
         </div>
     </nav>
