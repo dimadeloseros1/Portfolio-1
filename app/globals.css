@@ -34,3 +34,39 @@ li {
   background: -webkit-linear-gradient(to right, #3f5efb, #fc466b);
   background: linear-gradient(to right, #3f5efb, #fc466b);
 }
+
+@media only screen and (max-width: 768px) {
+  .nav-menu {
+    position: fixed;
+    top: 4rem;
+    width: 100%;
+    flex-direction: column;
+    background-color: #000000;
+    align-items: center;
+    transition: 0.3s;
+    right: -100%;
+  }
+
+  .nav-menu.active {
+    right: 0;
+  }
+
+  .nav-menu a {
+    padding: 1.5rem;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+  }
+}
