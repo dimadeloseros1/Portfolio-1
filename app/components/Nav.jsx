@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 
 const Nav = () => {
     const [openMenu, setOpenMenu] = useState(false)
-
+    
     const menuHandler = () => {
         setOpenMenu(!openMenu)
     }
