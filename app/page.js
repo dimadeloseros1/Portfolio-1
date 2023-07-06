@@ -4,6 +4,9 @@ import Divider from './components/Divider'
 import Projects from './components/Projects'
 import AnimatedNav from './components/AnimatedNav'
 import Contact from './components/Contact'
+import About from './components/About'
+import Footer from './components/Footer'
+import TopButton from './components/TopButton'
 
 export default function Home() {
   return (
@@ -12,6 +15,9 @@ export default function Home() {
       <Divider />
       <Projects />
       <Contact />
+      <About />
+      <Footer />
+      <TopButton />
     </>
   )
 }

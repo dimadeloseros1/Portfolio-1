@@ -11,6 +11,12 @@
   font-family: 'Geologica', sans-serif;
 }
 
+@layer base {
+  html {
+    @apply scroll-smooth
+  }
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -80,6 +86,10 @@ li {
   display: flex;
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 @media only screen and (max-width: 768px) {
   .nav-menu {
     position: fixed;
@@ -94,6 +104,7 @@ li {
 
   .nav-menu.active {
     right: 0;
+    z-index: 40;
   }
 
   .nav-menu a {
@@ -156,6 +167,8 @@ li {
     height: 300px;
   }
 }
+
+
 
 @media only screen and (min-width: 781px) and (max-width: 1130px) {
   .hero-image {
@@ -223,9 +236,15 @@ form h1 {
 form button {
   padding: 10px;
   width: 50%;
+  border-radius: 6px;
   background: #fc466b;
   background: -webkit-linear-gradient(to right, #3f5efb, #fc466b);
   background: linear-gradient(to right, #3f5efb, #fc466b);
+}
+
+input, textarea {
+  padding: 0.3rem 0;
+  background-color: aliceblue;
 }
 
 label,
@@ -237,4 +256,49 @@ textarea {
   border-radius: 5px;
   outline: none;
   border: none;
+}
+
+
+
+@media only screen and (max-width: 780px) {
+  .contact-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 3rem;
+  }
+
+  .form-heading {
+    flex-direction: column;
+  }
+}
+
+
+/* About */
+
+.about {
+  background-color: rgb(248, 244, 244);
+}
+
+.skills h3 {
+  background: #fc466b;
+  background: -webkit-linear-gradient(to right, #3f5efb, #fc466b);
+  background: linear-gradient(to right, #3f5efb, #fc466b);
+  color: #ffffff;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+}
+
+
+/* Top Button */ 
+
+.top-button {
+  position: fixed;
+  right: 0.7rem;
+  bottom: 1rem;
+  z-index: 999999;
+  display: none;
+}
+
+.top-button.active {
+  display: block;
 }

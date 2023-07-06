@@ -1,8 +1,12 @@
 "use client"
 import { useRef } from 'react'
 import emailjs from "@emailjs/browser"
+import { useInView } from 'framer-motion'
 
 const Contact = () => {
+  const ref = useRef(null)
+  const isInView = useInView(ref, {once: true})
+
   const form = useRef()
 
   const sendEmail = (e) => {
@@ -17,24 +21,32 @@ const Contact = () => {
       })
   }
   return (
-    <div className="contact bg-black w-full">
-      <div className="contact-container bg-inherit w-[89%] m-auto py-8 text-slate-50 flex justify-between items-center max-w-[1500px]">
-        <div className="contact-text">
-          <h1 className='text-[50px]'>Let's Chat. <br /> Tell me about your project</h1>
-          <span className='text-xl'>Let's create something together!✨</span>
+    <div className="contact bg-black w-full" id='contact' ref={ref}>
+      <div className="contact-container bg-inherit w-[89%] m-auto py-8 flex justify-between items-center max-w-[1500px]">
+        <div className="contact-text" style={{
+          transform: isInView ? "none" : "translateX(-200px)",
+          opacity: isInView ? 1 : 0,
+          transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
+        }}>
+          <h1 className='text-[50px] text-white'>Let's Chat. <br /> Tell me about your project</h1>
+          <span className='text-xl text-white'>Let's create something together!✨</span>
         </div>
-        <form ref={form} onSubmit={sendEmail} className='max-w-[400px]'>
+        <form ref={form} onSubmit={sendEmail} className='max-w-[400px] w-[20rem]' style={{
+          transform: isInView ? "none" : "translateX(200px)",
+          opacity: isInView ? 1 : 0,
+          transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
+        }}>
           <div className="form-heading flex gap-[5px] items-center justify-center">
-            <h1 className='mb-[10px]'>Send me a message</h1>
+            <h1 className='mb-[10px] text-3xl md:text-2xl'>Send me a message</h1>
             <span className=' text-3xl mb-[10px]'>🚀</span>
           </div>
-          <label htmlFor="name">Name:</label>
-          <input type="text" name='user_name' required className='py-[0.3rem] bg-sky-100'/>
-          <label htmlFor="name">Email:</label>
-          <input type="text" name='user_email' required className='py-[0.3rem] bg-sky-100'/>
-          <label htmlFor="name">Reason:</label>
-          <textarea name="message" required className=' h-[100px] bg-sky-100'></textarea>
-          <button type='submit' value="Send" className='border bg-slate-100 text-black  '>Send</button>
+          <label htmlFor="name" className='text-white'>Name:</label>
+          <input type="text" name='user_name' placeholder='Enter Your Name' required />
+          <label htmlFor="name" className='text-white'>Email:</label>
+          <input type="text" name='user_email' placeholder='Enter Your Email' required />
+          <label htmlFor="name" className='text-white'>Reason:</label>
+          <textarea name="message" required className='h-[100px]' placeholder='Reason for Contact'></textarea>
+          <button type='submit' value="Send" className='nav-btn border-none py-2 px-8 hover:scale-105 duration-300 tracking-widest cursor-pointer rounded-[20px] text-white'>Send</button>
         </form>
       </div>
     </div>
