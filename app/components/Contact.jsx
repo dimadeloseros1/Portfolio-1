@@ -29,8 +29,8 @@ const Contact = () => {
           opacity: isInView ? 1 : 0,
           transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
         }}>
-          <h1 className="text-[50px] text-white">Let's Chat. <br /> Tell me about your project</h1>
-          <span className="text-xl text-white">Let's create something together!✨</span>
+          <h1 className="text-[50px] text-white">Let&apos;s Chat. <br /> Tell me about your project</h1>
+          <span className="text-xl text-white">Let&apos;s create something together!✨</span>
         </div>
         <form ref={form} onSubmit={sendEmail} className='max-w-[400px] w-[20rem]' style={{
           transform: isInView ? "none" : "translateX(200px)",

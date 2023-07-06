@@ -21,7 +21,7 @@ const Hero = () => {
                     opacity: isInView ? 1 : 0,
                     transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.2s"
                 }}>
-                    <h1 className="text-[70px] font-bold tracking-[1px]">Hello, I'm Dima <br /> a <span className="text-[70px]">{text}</span></h1>
+                    <h1 className="text-[70px] font-bold tracking-[1px]">Hello, I&apos;m Dima <br /> a <span className="text-[70px]">{text}</span></h1>
                     <div className="hero-buttons flex items-center gap-4 mt-6">
                         <motion.a whileHover={{ scale: 1.1 }} onHoverStart={(e) => { }} onHoverEnd={(e) => { }} href="#contact">
                             <button className='py-2 px-8 outline-none border-none bg-black text-slate-50 rounded-[30px]  cursor-pointer '>Contact</button>
