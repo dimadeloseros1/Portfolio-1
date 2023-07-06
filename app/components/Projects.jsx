@@ -24,7 +24,7 @@ const Projects = () => {
         <div className="project-image hover:cursor-pointer basis-2/4 overflow-hidden mb-5 mx-3 relative" style={{
           transform: isInView ? "none" : "translateX(-200px)",
           opacity: isInView ? 1 : 0,
-          transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
+          transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.4s"
         }}>
           <Link href="https://little-lemon-bice.vercel.app/Booking">
             <Image className='cursor-pointer w-full h-auto rounded-2xl hover:brightness-75 transition-all' src={firstPro} alt="first Project" width={0} height={0} />
