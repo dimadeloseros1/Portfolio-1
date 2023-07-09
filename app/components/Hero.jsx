@@ -32,7 +32,7 @@ const Hero = () => {
                     </div>
                     <div className="hero-socials flex gap-6 mt-6">
                         <Link className="hero-socials-a" href="https://github.com/dimadeloseros1" target='_blank'><AiOutlineGithub /></Link>
-                        <Link className="hero-socials-a" href="https://github.com/dimadeloseros1" target='_blank'><AiFillTwitterCircle /></Link>
+                        <Link className="hero-socials-a" href="https://twitter.com/Dimakluchko" target='_blank'><AiFillTwitterCircle /></Link>
                         <Link className="hero-socials-a" href="https://www.linkedin.com/in/dmytro-de-los-eros-shakhray/" target='_blank'><AiFillLinkedin /></Link>
                     </div>
                 </div>

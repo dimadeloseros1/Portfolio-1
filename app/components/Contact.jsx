@@ -58,7 +58,7 @@ export const Contact = () => {
           <input className="text-black" type="email" id="email" name="email" placeholder="Enter your email" required />
           <label htmlFor="reason">Reason:</label>
           <textarea className="text-black" id="reason" name="reason" placeholder="Reason for contact" required></textarea>
-            <button className='nav-btn border-none py-2 px-8 tracking-widest cursor-pointer rounded-[20px] hover:scale-1.05 duration-300' value="Send" type="submit">Send</button>
+            <button className='nav-btn border-none py-2 px-8 tracking-widest cursor-pointer rounded-[20px] hover:scale-105 duration-300' value="Send" type="submit">Send</button>
         </form>
       </div>
     </div>
