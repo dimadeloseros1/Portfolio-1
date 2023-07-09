@@ -34,9 +34,9 @@ export const Contact = () => {
           }}
         >
           <h1>
-            Let's Chat. <br /> Tell me about your project.
+            Let&apos;s Chat. <br /> Tell me about your project.
           </h1>
-          <span>Let's create something together ✨</span>
+          <span>Let&apos;s create something together ✨</span>
         </div>
         <form
           className="w-full"
