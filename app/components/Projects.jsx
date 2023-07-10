@@ -3,6 +3,7 @@
 import Image from "next/image";
 import project1 from "../../public/Little-Lemon.png"
 import project2 from "../../public/Weather-App.png"
+import project3 from "../../public/Pokemon-Finder-Project.png"
 import { BsFillArrowUpRightCircleFill } from "react-icons/bs";
 import { useRef } from "react";
 import { useInView } from "framer-motion";
@@ -61,7 +62,7 @@ const Projects = () => {
             transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
           }}
         >
-          <Image alt="project" src={project2} width={0} height={0} />
+          <Image alt="project" src={project3} width={0} height={0} />
           <a href="https://pokemon-finder-e780bxwy0-dimadeloseros1.vercel.app/" target="_blank">
             <div className="icon">
               <BsFillArrowUpRightCircleFill size={100} style={{ fill: "url(#gradient)" }} />
