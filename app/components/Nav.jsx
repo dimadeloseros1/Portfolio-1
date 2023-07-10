@@ -25,7 +25,7 @@ const Nav = () => {
     return (
         <nav className='p-1 bg-black' id='home'>
             <div className='bg-inherit text-white py-4 w-[89%] m-auto flex items-center justify-between max-w-screen-2xl'>
-                <h1 className='p-1 uppercase text-2xl italic'>Dima<span>.com</span></h1>
+                <h1 className='p-1 uppercase text-2xl italic'>Dima</h1>
                 <ul className={`nav-menu flex gap-10 ${openMenu ? "nav-menu active" : "nav-menu"}`}>
                     <a onClick={closeMenu} className='tracking-widest md:px-1' href="#home"><li>Home</li></a>
                     <a onClick={closeMenu} className='tracking-widest md:px-1' href="#projects"><li>Projects</li></a>

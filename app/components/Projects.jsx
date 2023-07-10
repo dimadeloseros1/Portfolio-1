@@ -63,7 +63,7 @@ const Projects = () => {
           }}
         >
           <Image alt="project" src={project3} width={0} height={0} />
-          <a href="https://pokemon-finder-e780bxwy0-dimadeloseros1.vercel.app/" target="_blank">
+          <a href="https://pokemon-finder-dimadeloseros1.vercel.app/" target="_blank">
             <div className="icon">
               <BsFillArrowUpRightCircleFill size={100} style={{ fill: "url(#gradient)" }} />
               <h3>Check out Project</h3>
