@@ -62,7 +62,7 @@ const Projects = () => {
           }}
         >
           <Image alt="project" src={project2} width={0} height={0} />
-          <a href="https://imagine.antoniorogers.com/" target="_blank">
+          <a href="https://pokemon-finder-e780bxwy0-dimadeloseros1.vercel.app/" target="_blank">
             <div className="icon">
               <BsFillArrowUpRightCircleFill size={100} style={{ fill: "url(#gradient)" }} />
               <h3>Check out Project</h3>
@@ -78,7 +78,7 @@ const Projects = () => {
           }}
         >
           <Image alt="project" src={project2} width={0} height={0} />
-          <a href="https://tictactoe.antoniorogers.com/" target="_blank">
+          <a href="https://weather-app-git-main-dimadeloseros1.vercel.app/" target="_blank">
             <div className="icon">
               <BsFillArrowUpRightCircleFill size={100} style={{ fill: "url(#gradient)" }} />
               <h3>Check out Project</h3>
