@@ -36,10 +36,9 @@ const Projects = () => {
               <BsFillArrowUpRightCircleFill size={100} style={{ fill: "url(#gradient)" }} />
               <h3>Check out Project</h3>
             </div>
-            <div className="technologies -translate-y-80 translate-x-12">
+            <div className="technologies">
               <h3 className="text-slate-300 text-2xl">Technologies Used <span>React.js</span><span>Css</span></h3>
-              <ul className="text-white text-lg">
-              </ul>
+              <ul className="text-white text-lg"></ul>
             </div>
           </a>
         </div>
@@ -57,7 +56,7 @@ const Projects = () => {
               <BsFillArrowUpRightCircleFill size={100} style={{ fill: "url(#gradient)" }} />
               <h3>Check out Project</h3>
             </div>
-            <div className="technologies -translate-y-80 translate-x-12">
+            <div className="technologies -translate-y-310">
               <h3 className="text-slate-300 text-2xl">Technologies Used <span>Typescript</span><span>Next.js</span><span>Tailwind.Css</span></h3>
             </div>
           </a>
@@ -76,7 +75,7 @@ const Projects = () => {
               <BsFillArrowUpRightCircleFill size={100} style={{ fill: "url(#gradient)" }} />
               <h3>Check out Project</h3>
             </div>
-            <div className="technologies -translate-y-80 translate-x-12">
+            <div className="technologies">
               <h3 className="text-slate-300 text-2xl">Technologies Used <span>Typescript</span><span>Next.js</span><span>Tailwind.Css</span></h3>
             </div>
           </a>
@@ -95,7 +94,7 @@ const Projects = () => {
               <BsFillArrowUpRightCircleFill size={100} style={{ fill: "url(#gradient)" }} />
               <h3>Check out Project</h3>
             </div>
-            <div className="technologies -translate-y-80 translate-x-12">
+            <div className="technologies -translate-y-310">
               <h3 className="text-2xl text-slate-300">Technologies Used <span>Typescript</span><span>Next.js</span><span>Tailwind.Css</span></h3>
             </div>
           </a>
