@@ -36,6 +36,13 @@ const Projects = () => {
               <BsFillArrowUpRightCircleFill size={100} style={{ fill: "url(#gradient)" }} />
               <h3>Check out Project</h3>
             </div>
+            <div className="technologies -translate-y-80 translate-x-12">
+              <h3 className="text-slate-300 text-2xl">Technologies Used</h3>
+              <ul className="text-white text-lg">
+                <li>React.js</li>
+                <li>Css</li>
+              </ul>
+            </div>
           </a>
         </div>
         <div
@@ -47,10 +54,18 @@ const Projects = () => {
           }}
         >
           <Image alt="project" src={project2} width={0} height={0} />
-          <a href = "https://weather-app-git-main-dimadeloseros1.vercel.app/" target="_blank">
+          <a href="https://weather-app-git-main-dimadeloseros1.vercel.app/" target="_blank">
             <div className="icon">
               <BsFillArrowUpRightCircleFill size={100} style={{ fill: "url(#gradient)" }} />
               <h3>Check out Project</h3>
+            </div>
+            <div className="technologies -translate-y-80 translate-x-12">
+              <h3 className="text-slate-300 text-2xl">Technologies Used</h3>
+              <ul className="text-white text-lg">
+                <li>Typescript</li>
+                <li>Next.js</li>
+                <li>Tailwind.Css</li>
+              </ul>
             </div>
           </a>
         </div>
@@ -68,6 +83,14 @@ const Projects = () => {
               <BsFillArrowUpRightCircleFill size={100} style={{ fill: "url(#gradient)" }} />
               <h3>Check out Project</h3>
             </div>
+            <div className="technologies -translate-y-80 translate-x-12">
+              <h3 className="text-slate-300 text-2xl">Technologies Used</h3>
+              <ul className="text-white text-lg">
+                <li>Typescript</li>
+                <li>Next.js</li>
+                <li>Tailwind.Css</li>
+              </ul>
+            </div>
           </a>
         </div>
         <div
@@ -83,6 +106,14 @@ const Projects = () => {
             <div className="icon">
               <BsFillArrowUpRightCircleFill size={100} style={{ fill: "url(#gradient)" }} />
               <h3>Check out Project</h3>
+            </div>
+            <div className="technologies -translate-y-80 translate-x-12">
+              <h3 className="text-2xl text-slate-300">Technologies Used</h3>
+              <ul className="text-white text-lg">
+                <li>Typescript</li>
+                <li>Next.js</li>
+                <li>Tailwind.Css</li>
+              </ul>
             </div>
           </a>
         </div>

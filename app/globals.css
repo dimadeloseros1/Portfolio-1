@@ -277,6 +277,26 @@ li {
   transform: translate(-50%, -50%);
 }
 
+.projects-image .technologies {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.projects-image:hover .technologies {
+  opacity: 1;
+}
+
+.projects-image:hover .technologies li {
+  background: #fc466b;
+  background: -webkit-linear-gradient(to right, #3f5efb, #fc466b);
+  background: linear-gradient(to right, #3f5efb, #fc466b);
+  color: #ffffff;
+  border-radius: 20px;
+  padding: 0.5rem 0.8rem;
+  margin: 5px;
+  width: fit-content;
+}
+
 @media only screen and (max-width: 768px) {
   .projects-container {
     flex-direction: column;
@@ -354,10 +374,12 @@ input {
   padding: 0.3rem 1.3rem;
   background-color: aliceblue;
 }
+
 textarea {
   height: 100px;
   background-color: aliceblue;
 }
+
 form button {
   padding: 10px;
   width: 50%;
@@ -400,7 +422,7 @@ form button {
 }
 
 
-/* Top Button */ 
+/* Top Button */
 
 .top-button {
   position: fixed;
