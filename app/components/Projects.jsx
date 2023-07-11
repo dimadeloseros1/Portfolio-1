@@ -37,10 +37,8 @@ const Projects = () => {
               <h3>Check out Project</h3>
             </div>
             <div className="technologies -translate-y-80 translate-x-12">
-              <h3 className="text-slate-300 text-2xl">Technologies Used</h3>
+              <h3 className="text-slate-300 text-2xl">Technologies Used <span>React.js</span><span>Css</span></h3>
               <ul className="text-white text-lg">
-                <li>React.js</li>
-                <li>Css</li>
               </ul>
             </div>
           </a>
@@ -60,12 +58,7 @@ const Projects = () => {
               <h3>Check out Project</h3>
             </div>
             <div className="technologies -translate-y-80 translate-x-12">
-              <h3 className="text-slate-300 text-2xl">Technologies Used</h3>
-              <ul className="text-white text-lg">
-                <li>Typescript</li>
-                <li>Next.js</li>
-                <li>Tailwind.Css</li>
-              </ul>
+              <h3 className="text-slate-300 text-2xl">Technologies Used <span>Typescript</span><span>Next.js</span><span>Tailwind.Css</span></h3>
             </div>
           </a>
         </div>
@@ -84,12 +77,7 @@ const Projects = () => {
               <h3>Check out Project</h3>
             </div>
             <div className="technologies -translate-y-80 translate-x-12">
-              <h3 className="text-slate-300 text-2xl">Technologies Used</h3>
-              <ul className="text-white text-lg">
-                <li>Typescript</li>
-                <li>Next.js</li>
-                <li>Tailwind.Css</li>
-              </ul>
+              <h3 className="text-slate-300 text-2xl">Technologies Used <span>Typescript</span><span>Next.js</span><span>Tailwind.Css</span></h3>
             </div>
           </a>
         </div>
@@ -108,12 +96,7 @@ const Projects = () => {
               <h3>Check out Project</h3>
             </div>
             <div className="technologies -translate-y-80 translate-x-12">
-              <h3 className="text-2xl text-slate-300">Technologies Used</h3>
-              <ul className="text-white text-lg">
-                <li>Typescript</li>
-                <li>Next.js</li>
-                <li>Tailwind.Css</li>
-              </ul>
+              <h3 className="text-2xl text-slate-300">Technologies Used <span>Typescript</span><span>Next.js</span><span>Tailwind.Css</span></h3>
             </div>
           </a>
         </div>

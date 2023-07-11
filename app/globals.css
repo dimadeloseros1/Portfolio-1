@@ -286,7 +286,7 @@ li {
   opacity: 1;
 }
 
-.projects-image:hover .technologies li {
+.projects-image:hover .technologies span {
   background: #fc466b;
   background: -webkit-linear-gradient(to right, #3f5efb, #fc466b);
   background: linear-gradient(to right, #3f5efb, #fc466b);
@@ -295,6 +295,7 @@ li {
   padding: 0.5rem 0.8rem;
   margin: 5px;
   width: fit-content;
+  font-size: medium;
 }
 
 @media only screen and (max-width: 768px) {
