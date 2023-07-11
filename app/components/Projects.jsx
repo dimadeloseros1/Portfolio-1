@@ -32,13 +32,12 @@ const Projects = () => {
         >
           <Image alt="project" src={project1} width={0} height={0} />
           <a href="https://little-lemon-bice.vercel.app/" target="_blank">
-            <div className="icon">
+            <div className="icon bottom-6">
               <BsFillArrowUpRightCircleFill size={100} style={{ fill: "url(#gradient)" }} />
               <h3>Check out Project</h3>
             </div>
             <div className="technologies">
               <h3 className="text-slate-300 text-2xl">Technologies Used <span>React.js</span><span>Css</span></h3>
-              <ul className="text-white text-lg"></ul>
             </div>
           </a>
         </div>
@@ -52,7 +51,7 @@ const Projects = () => {
         >
           <Image alt="project" src={project2} width={0} height={0} />
           <a href="https://weather-app-git-main-dimadeloseros1.vercel.app/" target="_blank">
-            <div className="icon">
+            <div className="icon bottom-6">
               <BsFillArrowUpRightCircleFill size={100} style={{ fill: "url(#gradient)" }} />
               <h3>Check out Project</h3>
             </div>
@@ -71,7 +70,7 @@ const Projects = () => {
         >
           <Image alt="project" src={project3} width={0} height={0} />
           <a href="https://pokemon-finder-dimadeloseros1.vercel.app/" target="_blank">
-            <div className="icon">
+            <div className="icon bottom-6">
               <BsFillArrowUpRightCircleFill size={100} style={{ fill: "url(#gradient)" }} />
               <h3>Check out Project</h3>
             </div>
@@ -90,7 +89,7 @@ const Projects = () => {
         >
           <Image alt="project" src={project2} width={0} height={0} />
           <a href="https://weather-app-git-main-dimadeloseros1.vercel.app/" target="_blank">
-            <div className="icon">
+            <div className="icon bottom-6">
               <BsFillArrowUpRightCircleFill size={100} style={{ fill: "url(#gradient)" }} />
               <h3>Check out Project</h3>
             </div>
